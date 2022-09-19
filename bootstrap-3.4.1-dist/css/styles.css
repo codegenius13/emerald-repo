@@ -1093,21 +1093,21 @@ li{
     /* END PAYMENT CATEGORY PAGE*/
      /*S16 CATEGORY PAGE*/
      .container-img {
-        margin-left: 5px;    
+        margin-left: 0px;    
     }
     #valid {
         display: block;
         background-color: black;
         width: 100px;
         float: right;
-        margin-right: 40px;
+        margin-right: 0px;
       }
       #cart {
         display: block;
         background-color: black;
         width: 100px;
         float: left;
-        margin-left: 40px;
+        margin-left: 0px;
       }
     /*END S16 CATEGORY PAGE*/
   }
