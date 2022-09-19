@@ -1,0 +1,1159 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: burlywood;
+    font-family: 'Gill Sans', 
+    'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: white;
+    border-radius: 0;
+    border: 0;
+    
+}
+
+#logo-img {
+    background: url("") no-repeat;
+    height: 150px;
+    margin: 10px 15px 10px 0; 
+}
+
+#logo-pic {
+    margin-left: -70px;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 { /*Restaurant name */
+     font-family: 'Courier New', Courier, monospace;
+     color: darkgreen;
+     font-size: 1.5em;
+     text-transform: uppercase;
+     font-weight: bold;
+     text-shadow: 1px 1px 1px #222;
+     margin-top: 0;
+     margin-bottom: 0;
+     line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand p { /* Kosher cert */ 
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+.navbar-brand p span { /* Star image */
+    vertical-align: middle;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: darkgreen;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: grey;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+#phone {
+    margin-top: 5px;
+}
+#phone a {/*Phone number*/
+    text-align: right;
+    padding-bottom: 0;
+}
+#phone div { /*We deliver*/
+    color: black;
+    text-align: right;
+    padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid maroon;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+/* END HEADER */
+/* HOME PAGE */
+.container .jumbotron {
+    box-shadow: 0 0 50px burlywood;
+    border: 2px solid darkgreen;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 200px;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+    box-shadow: 0 1px 5px 1px black;
+}
+#menu-tile {
+    background: url("file:///C:/Users/DAMILARE/Desktop/html%20,%20css%20javascript%20practice/jjj/bootstrap-3.4.1-dist/bootstrap%20images/240453322_1331565090592477_7513001117517885136_n~2.jpg") no-repeat;
+    background-position: center;
+}
+
+#specials-tile {
+    background: url("file:///C:/Users/DAMILARE/Desktop/html%20,%20css%20javascript%20practice/jjj/bootstrap-3.4.1-dist/bootstrap%20images/238085179_375699547447338_2614631686413434188_n~2.jpg") no-repeat;
+    background-position: center;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+/* END HOME PAGE */
+
+/* MENU CATEGORIES */
+.category-tile {
+    position: relative;
+    border: 2px solid #000;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+.category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    opacity: .8;
+}
+.category-tile:hover {
+    box-shadow: 0 1px 5px 1px #000;
+}
+#menu-categories-title + div {
+    margin-bottom: 50px;
+}
+/* END MENU CATEGORIES PAGE
+/* SINGLE MENU CATEGORIES PAGE*/
+.menu-item-title {
+    margin-bottom: 25px;
+}
+.menu-item-title hr {
+    width: 80%;
+}
+.menu-item-title, .menu-item-price {
+    font-size: 1.1em;
+    text-align: right;
+    margin-top: -15px;
+    margin-right: -15px;
+}
+.menu-item-title, .menu-item-price-two {
+    font-size: 1.1em;
+    text-align: right;
+    margin-top: -2px;
+    margin-right: -15px;
+}
+.menu-item-title .menu-item-price span {
+    font-size: .6em;
+}
+.menu-item-photo {
+    position: relative;
+    border: 2px;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+    
+}
+.menu-item-photo div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: yellowgreen;
+    text-align: center;
+    
+}
+.menu-item-description {
+    padding-right: 30px;
+}
+h3.menu-item-title {
+    margin: 0 0 10px;
+    text-align: center;
+}
+.menu-item-details {
+    font-size: .9em;
+    font-style: italic;
+}
+.menu-item-photo:hover {
+    box-shadow: 0 1px 5px 1px #000;
+}
+#new {
+    color: green;
+}
+#blur {
+    color: #000;
+}
+
+/* END SINGLE CATEGORY PAGE */
+
+/* S16 CATEGORY PAGE*/
+#price {
+    font-size: smaller;
+}
+#percent {
+    color: darkgreen;
+    font-size: medium;
+}
+#extra {
+    color: darkgreen;
+}
+#glyph {
+    color: darkgreen;
+}
+.panel-top {
+    background-color: brown;
+}
+.panel-content {
+    background-color: wheat;
+}
+.panel-discount {
+    background-color: brown;
+}
+.panel {
+    background-color: whitesmoke;
+    width: 800px;
+}
+.container-img-two {
+    height: 250px;
+    background-color: wheat;
+    width: 800px;
+}
+.container-img {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    margin-left: 450px;
+    margin-bottom: 10px;
+    
+}
+.box-like-one {
+    margin-left: 200px;
+    background-color: black;
+    width: 170px;
+    height: 200px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: #222;
+    
+}
+.box-like-one:hover {
+    box-shadow: 0 1px 5px 1px #222;
+}
+.box-like-two {
+    margin-left: -230px;
+    background-color: brown;
+    width: 170px;
+    height: 200px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: #222;
+}
+.box-like-two:hover {
+    box-shadow: 0 1px 5px 1px #222;
+}
+.box-like-three {
+    margin-left: -430px;
+    background-color: crimson;
+    width: 170px;
+    height: 200px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: #222;
+    
+}
+.box-like-three:hover {
+    box-shadow: 0 1px 5px 1px #222;
+}
+.box-like-four {
+    margin-left: -458px;
+    background-color: darkolivegreen;
+    width: 170px;
+    height: 200px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: #222;
+    
+}
+.box-like-four:hover {
+    box-shadow: 0 1px 5px 1px #222;
+}
+
+#src {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#img-text {
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+#green:hover {
+    box-shadow: 0 1px 5px 1px white;
+}
+#white:hover {
+    box-shadow: 0 1px 5px 1px white;
+}
+#gold:hover {
+    box-shadow: 0 1px 5px 1px white;
+}
+#discount {
+    font-weight: bold;
+    color: black;
+}
+#dis {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 2px;
+    background-color: gray;
+    color:crimson;
+    margin-left: 140px;
+    text-decoration: underline;
+    
+}
+#coup {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 2px;
+    background-color: gray;
+    color:crimson;
+    margin-left: 140px;
+    text-decoration: underline;
+    
+    
+}
+#learn {
+    text-decoration: underline;
+    color: darkgreen;
+}
+#interest {
+    color: #000;
+}
+#info{
+    color: crimson;
+    font-style: italic;
+    text-decoration: underline;
+}
+#note {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+#staff {
+    font-weight: bold;
+    color: #000;
+}
+#specification {
+    color: #000;
+    text-decoration: underline;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+tr {
+    background-color: brown;
+}
+#div {
+     margin-bottom: 70px;
+}
+#cart {
+    display: block;
+    background-color: black;
+    width: 200px;
+    float: left;
+    margin-left: 503px;
+    
+}
+#cart:hover {
+    box-shadow: 0 1px 5px 1px white;
+}
+#valid {
+    display: block;
+    background-color: black;
+    width: 200px;
+    float: right;
+    margin-right: 439px;
+    
+    
+}
+#valid:hover {
+    box-shadow: 0 1px 5px 1px white;
+}
+#okay {
+    color: #fff;
+    text-decoration: underline;
+}
+#smile {
+    color: #fff;
+    text-decoration: underline;
+}
+.slider-frame {
+    overflow: hidden;
+    height: 300px;
+    width: 750px;
+    margin-left: 10px;
+   
+}
+.slide-images {
+    width: 170px;
+    height: 200px;
+    margin: 0 0 0 -15px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    -webkit-transform: rotateY(0deg);
+    float: left;
+}
+.slide-images-two {
+    width: 170px;
+    height: 200px;
+    margin: 0 0 0 -15px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    -webkit-transform: rotateY(0deg);
+    float: right;
+}
+.slide-images-three {
+    width: 170px;
+    height: 200px;
+    margin: 0 0 0 -15px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    -webkit-transform: rotateY(0deg);
+    float: right;
+}
+.slide-images-four {
+    width: 170px;
+    height: 200px;
+    margin: 0 0 0 -15px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    -webkit-transform: rotateY(0deg);
+    float: right;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+
+}
+
+
+/* END S16 CATEGORY PAGE*/
+
+/* ABOUT CATEGORY PAGE*/
+#box {
+    background-color: darkolivegreen;
+    padding: 10px ; 
+    border: 5px solid black;
+    margin-top: 50px;
+    overflow: auto;
+    height: 350px;
+    font-style: italic;
+    color: black;
+}    
+/* END ABOUT CATEGORY PAGE*/
+
+/* AWARDS CATEGORY PAGE*/
+
+
+/* END AWARDS CATEGORY PAGE*/
+
+/* PAY CATEGORY PAGE*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container-pay {
+    width: 758px;
+    height: 580px;
+    border: 1px solid;
+    margin-left: 270px;
+    margin-top: 80px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: space-around;
+    font-family: cursive;
+    
+}
+.container-pay h3 {
+    text-align: center;
+}
+.first-row {
+    display: flex;
+}
+.owner {
+    width: 100%;
+    margin-right: 40px;
+}
+.input-field {
+    border: 1px solid gray;
+}
+.input-field input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+#pin {
+    width: 120px;
+}
+.selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.selection select {
+    padding: 10px 20px;
+}
+#confirm {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 10px;
+    transition: 0.5%;
+    
+}
+#confirm:hover {
+    background-color: burlywood;
+}
+
+/* END PAY CATEGORY PAGE*/
+/* CONFIRMATION PAGE*/
+.box-yes {
+    width: 758px;
+    height: 580px;
+    border: 1px solid;
+    margin-left: 270px;
+    margin-top: 80px;
+    background-color: whitesmoke;
+    color: #000;
+    padding: 40px;
+    justify-content: space-around;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+}
+#yes {
+    font-weight: bold;
+    font-style: italic;
+}
+#correct {
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: -10px;
+    background-color: whitesmoke;
+}
+#marker {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    margin-top: 50px;
+    font-style: oblique;
+    color: black;
+}
+#check {
+   margin-top: 50px;
+   margin-left: 50px;
+}
+/* END CONFIRMATION PAGE*/
+
+/* FOOTER */
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+#hours, #address {
+    line-height: 2;
+}
+#hours > span, #address > span {
+    font-size: 1.3em;
+}
+#address p {
+    color: darkgreen;
+    font-size: .8em;
+    line-height: 1.8;
+}
+#testimonials {
+    font-style: italic;
+}
+#testimonials p:nth-child(2) {
+    margin-top: 25px;
+}
+
+#whatsapp-icon {
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+li{
+    list-style: none;
+}
+#instagram-icon{
+    height: 30px;
+    width: 30px;
+    background-color:white;
+    border-radius: 50%;
+}
+#facebook-icon{
+    height: 30px;
+    width: 30px;
+    background-color:white;
+    border-radius: 50%;
+}
+#twitter-icon {
+    height: 30px;
+    width: 30px;
+    background-color:white;
+    border-radius: 50%;
+}
+/* END FOOTER */
+
+/********** SLIDE ANIMATION **********/
+@-webkit-keyframes slide_animation {
+    0% {left: 0px;}
+    10% {right: 700px;}
+    20% {left: 500px;}
+    30% {right: 500px;}
+    40% {left: 700px;}
+    50% {right: 700px;}
+    60% {left: 700px;}
+    70% {right: 500px;}
+    80% {left: 500px;}
+    90% {right: 700px;}
+    100% {left : 0px;}
+}
+
+/********** Large Devices only **********/
+@media (min-width: 1200px) {
+    /* HOME PAGE */
+      /*.jumbotron {
+      background: url("file:///C:/Users/user/Desktop/Bolu's%20files/HTML,%20CSS%20&%20JAVASCRIPT%20practice/bootstrap-3.4.1-dist/bootstrap%20images/240866652_570074650676444_8288661910504227848_n~2.jpg") no-repeat;
+      height: 675px;
+      box-shadow: 0 0 50px burlywood;
+      border: 2px solid darkgreen;
+  }*/
+  .container .jumbotron {
+      width: 1000px;
+  }
+  /* END HOME PAGE */
+  /*S16 CATEGORY PAGE */
+  #dis {
+    margin-left: 570px;
+  }
+  #coup {
+    margin-left: 570px;
+  }
+
+  /*END S16 CATEGORY PAGE*/
+  
+  
+  }
+  
+  /********** Medium Devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px){
+    /* HEADER */
+    #logo-img {
+      background: url("file:///C:/Users/DAMILARE/Desktop/html%20,%20css%20javascript%20practice/jjj/bootstrap-3.4.1-dist/bootstrap%20images/238874039_1439463043113691_2753819892244313403_n~2.jpg") no-repeat;
+      width: 100px;
+      height: 100px;
+      max-width: 5px 5px 5px 0;
+    }
+    
+    /* END HEADER */
+    /* HOME PAGE */
+  
+   /* .jumbotron {
+      background: url("file:///C:/Users/user/Desktop/Bolu's%20files/HTML,%20CSS%20&%20JAVASCRIPT%20practice/bootstrap-3.4.1-dist/bootstrap%20images/240866652_570074650676444_8288661910504227848_n~2.jpg") no-repeat;
+      height: 558px;
+      box-shadow: 0 0 50px burlywood;
+      border: 2px solid darkgreen;
+    }*/
+    /* END HOME PAGE */
+    /* PAYMENT CATEGORY PAGE*/
+    .container-pay {
+        width: 550px;
+        height: 650px;
+        border: 1px solid;
+        margin-left: 250px;
+        margin-top: 80px;
+        background-color: #fff;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        justify-content: space-around;
+        font-family: cursive;
+    }
+    #mastercard {
+         height: 70px;
+         width: 70px;
+    }
+    #verve {
+         height: 70px;
+         width: 70px;
+    }
+    #visa {
+         height: 70px;
+         width: 70px;
+    }
+    /* END PAYMENT CATEGORY PAGE*/
+    /* CONFIRMATION PAGE*/
+    .box-yes {
+        width: 650px;
+        height: 650px;
+        border: 1px solid;
+        margin-left: 270px;
+        margin-top: 80px;
+        background-color: whitesmoke;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        justify-content: space-around;
+        font-family: cursive;
+    }
+    #check {
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 500px;
+
+     }
+    /* END CONFIRMATION PAGE*/
+    /*S16 CATEGORY PAGE*/
+    .container-img {
+        margin-left: 300px;    
+    }
+    #dis {
+        margin-left: 460px;
+      }
+      #coup {
+        margin-left: 460px;
+      }
+      #valid {
+        display: block;
+        background-color: black;
+        width: 200px;
+        float: right;
+        margin-right: 350px;
+      }
+      #cart {
+        display: block;
+        background-color: black;
+        width: 200px;
+        float: left;
+        margin-left: 350px;
+      }
+    /*END S16 CATEGORY PAGE*/
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+   /* HOME PAGE */
+   /*.jumbotron {
+      background: url("file:///C:/Users/user/Desktop/Bolu's%20files/HTML,%20CSS%20&%20JAVASCRIPT%20practice/bootstrap-3.4.1-dist/bootstrap%20images/240866652_570074650676444_8288661910504227848_n~2.jpg") no-repeat;
+      height: 432px;
+      box-shadow: 0 0 50px burlywood;
+      border: 2px solid darkgreen ;
+   } */
+   /* END HOME PAGE */
+      /* PAYMENT CATEGORY PAGE*/
+      .container-pay {
+        width: 500px;
+        height: 750px;
+        border: 1px solid;
+        margin-left: 200px;
+        margin-top: 80px;
+        background-color: #fff;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        justify-content: space-around;
+        font-family: cursive;
+    }
+    #mastercard {
+        height: 70px;
+        width: 70px;
+   }
+   #verve {
+        height: 70px;
+        width: 70px;
+   }
+   #visa {
+        height: 70px;
+        width: 70px;
+   }
+    /* END PAYMENT CATEGORY PAGE*/
+    /* CONFIRMATION PAGE*/
+    .box-yes {
+        width: 650px;
+        height: 650px;
+        border: 1px solid;
+        margin-left: 150px;
+        margin-top: 80px;
+        background-color: whitesmoke;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        justify-content: space-around;
+        font-family: cursive;
+    }
+    #check {
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 500px;
+
+     }
+    /* END CONFIRMATION PAGE*/
+    /*S16 CATEGORY PAGE*/
+    .container-img {
+        margin-left: 200px;    
+    }
+    #dis {
+        margin-left: 350px;
+      }
+      #coup {
+        margin-left: 350px;
+      }
+      #valid {
+        display: block;
+        background-color: black;
+        width: 200px;
+        float: right;
+        margin-right: 260px;
+      }
+      #cart {
+        display: block;
+        background-color: black;
+        width: 200px;
+        float: left;
+        margin-left: 260px;
+      }
+    /*END S16 CATEGORY PAGE*/
+}
+  /********** Extra small devices only ***********/
+  @media (max-width: 767px) {
+  /* HEADER */
+  .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+  }
+  .navbar-brand h1 { /*Restaurant name */
+       padding-top: 10px;
+       font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+        margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star image */
+         height: 20px;
+  }
+  #collapsable-nav a {
+      font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsable nav menu glyph */
+      font-size: 1em;
+      margin-right: 5px;
+  }
+  #call-btn {
+      font-size: 1.5em;
+      display: block;
+      margin: 0 20px;
+      padding: 10px;
+      border: 2px solid #fff;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      
+      
+  }
+  #xs-deliver {
+      margin-top: 5px;
+      font-size: .7em;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+  }
+  /* END HEADER */
+  /* MENU CATEGORY PAGE*/
+  .category-tile {
+    position: relative;
+    border: 2px solid #000;
+    overflow: hidden;
+    width: 170px;
+    height: 170px;
+    margin: 0 auto 15px;
+}
+  /* END MENU CATEGORY PAGE*/
+  
+  /* SINGLE MENU CATEGORY */
+  .menu-item-photo {
+      margin-right: auto;
+  }
+  .menu-item-price {
+      text-align: center;
+  }
+  .menu-item-price-two {
+    text-align: center;
+}
+  .menu-item-description {
+      text-align: center;
+  }
+  /* END SINGLE CATEGORY */
+     /* PAYMENT CATEGORY PAGE*/
+     .container-pay {
+        width: 400px;
+        height: 800px;
+        border: 1px solid;
+        margin-left: 40px;
+        margin-top: 80px;
+        background-color: #fff;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        justify-content: space-around;
+        font-family: cursive;
+    }
+    #mastercard {
+        height: 60px;
+        width: 60px;
+   }
+   #verve {
+        height: 60px;
+        width: 60px;
+   }
+   #visa {
+        height: 60px;
+        width: 60px;
+   }
+    /* END PAYMENT CATEGORY PAGE*/
+    /* CONFIRMATION  PAGE*/
+    .box-yes {
+        width: 400px;
+        height: 650px;
+        border: 1px solid;
+        margin-left: 40px;
+        margin-top: 80px;
+        background-color: whitesmoke;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        justify-content: space-around;
+        font-family: cursive;
+    }
+    #check {
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 200px;
+
+     }
+    /* END CONFIRMATION PAGE*/
+    /*S16 CATEGORY PAGE*/
+    .container-img {
+        margin-left: 40px;    
+    }
+    #valid {
+        display: block;
+        background-color: black;
+        width: 200px;
+        float: right;
+        margin-right: 40px;
+      }
+      #cart {
+        display: block;
+        background-color: black;
+        width: 200px;
+        float: left;
+        margin-left: 40px;
+      }
+    /*END S16 CATEGORY PAGE*/
+  }
+  
+   
+  /********* Super extra small devices ********/
+  @media (max-width: 479px) {
+      /* HEADER */
+      .navbar-brand h1 {
+          padding-top: 5px;
+          font-size: 6vw;
+         /* PAYMENT CATEGORY PAGE*/
+    
+      }
+      .container-pay {
+        width: 400px;
+        height: 600px;
+        border: 1px solid;
+        margin-left: 5px;
+        margin-top: 60px;
+        background-color: #fff;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        justify-content: space-around;
+        font-family: cursive;
+    }
+    #mastercard {
+        height: 30px;
+        width: 30px;
+   }
+   #verve {
+        height: 30px;
+        width: 30px;
+   }
+   #visa {
+        height: 30px;
+        width: 30px;
+   }
+    /* END PAYMENT CATEGORY PAGE*/
+    /* CONFIRMATION  PAGE*/
+    .box-yes {
+        width: 400px;
+        height: 650px;
+        border: 1px solid;
+        margin-left: 5px;
+        margin-top: 80px;
+        background-color: whitesmoke;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        justify-content: space-around;
+        font-family: cursive;
+    }
+    #check {
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 200px;
+
+     }
+    /* END CONFIRMATION PAGE*/
+    /*S16 CATEGORY PAGE*/
+    .container-img {
+        margin-left: 5px;    
+    }
+    #valid {
+        display: block;
+        background-color: black;
+        width: 200px;
+        float: right;
+        margin-right: 0px;
+      }
+      #cart {
+        display: block;
+        background-color: black;
+        width: 200px;
+        float: left;
+        margin-left: 0px;
+      }
+      #dis {
+        margin-left: 102px;
+      }
+      #coup {
+        margin-left: 102px;
+      }
+    /*END S16 CATEGORY PAGE*/    
+  }
+  /* HOME PAGE */
+  .container .jumbotron {
+      margin-top: 30px;
+      padding: 0;
+  }
+  
+  #menu-tile, #specials-tile, #map-tile {
+      width: 300px;
+      margin: 0 auto 15px;
+  }
+  /* END HOME PAGE */
