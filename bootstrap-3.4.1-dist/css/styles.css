@@ -922,7 +922,7 @@ li{
     /*END S16 CATEGORY PAGE*/
 }
   /********** Extra small devices only ***********/
-  @media (max-width: 767px) {
+  @media (min-width: 630px) and (max-width: 767px) {
   /* HEADER */
   .navbar-brand {
       padding-top: 10px;
