@@ -965,6 +965,17 @@ li{
       text-transform: uppercase;
   }
   /* END HEADER */
+  /* MENU CATEGORIES PAGE */
+
+.category-tile {
+    position: relative;
+    border: 2px solid #000;
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 15px;
+}
+  /* END MENU CATEGORIES PAGE */
   
   /* SINGLE MENU CATEGORY */
   .menu-item-photo {
