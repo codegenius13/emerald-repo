@@ -1,2 +1,0 @@
-UserGRreeter.sayHello();
-KemiGreeter.sayHi();
