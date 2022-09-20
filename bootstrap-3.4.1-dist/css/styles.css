@@ -981,7 +981,7 @@ li{
     /*END S16 CATEGORY PAGE*/
 }
   /********** Extra small devices only ***********/
-  @media (min-width: 450px)and(max-width: 767px) {
+  @media (max-width: 767px) {
   /* HEADER */
   .navbar-brand {
       padding-top: 10px;
@@ -1051,8 +1051,8 @@ li{
   /* END SINGLE CATEGORY */
      /* PAYMENT CATEGORY PAGE*/
      .container-pay {
-        width: 400px;
-        height: 800px;
+        width: 350px;
+        height: 600px;
         border: 1px solid;
         margin-left: 40px;
         margin-top: 80px;
@@ -1065,16 +1065,16 @@ li{
         font-family: cursive;
     }
     #mastercard {
-        height: 60px;
-        width: 60px;
+        height: 30px;
+        width: 30px;
    }
    #verve {
-        height: 60px;
-        width: 60px;
+        height: 30px;
+        width: 30px;
    }
    #visa {
-        height: 60px;
-        width: 60px;
+        height: 30px;
+        width: 30px;
    }
     /* END PAYMENT CATEGORY PAGE*/
     /* CONFIRMATION  PAGE*/
@@ -1193,7 +1193,7 @@ li{
     
       
       .container-pay {
-        width: 330px;
+        width: 350px;
         height: 600px;
         border: 1px solid;
         margin-left: 5px;
@@ -1243,7 +1243,7 @@ li{
     /* END CONFIRMATION PAGE*/
     /*S16 CATEGORY PAGE*/
     .container-img {
-        width: 330px; 
+        width: 350px; 
         margin-left: 5px;   
     }
     #valid {
