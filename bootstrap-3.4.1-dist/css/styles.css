@@ -1333,7 +1333,7 @@ li{
     
       
       .container-pay {
-        width: 300px;
+        width: 400px;
         height: 600px;
         border: 1px solid;
         margin-left: 5px;
@@ -1383,7 +1383,8 @@ li{
     /* END CONFIRMATION PAGE*/
     /*S16 CATEGORY PAGE*/
     .container-img {
-        width: 400px;    
+        width: 400px; 
+        margin-left: 5px;   
     }
     #valid {
         display: block;
