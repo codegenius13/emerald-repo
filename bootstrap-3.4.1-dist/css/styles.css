@@ -981,7 +981,7 @@ li{
     /*END S16 CATEGORY PAGE*/
 }
   /********** Extra small devices only ***********/
-  @media (min-width: 631px)and(max-width: 767px) {
+  @media (min-width: 450px)and(max-width: 767px) {
   /* HEADER */
   .navbar-brand {
       padding-top: 10px;
@@ -1119,147 +1119,7 @@ li{
       }*/
     /*END S16 CATEGORY PAGE*/
   }
-  @media (min-width: 479px)and (max-width: 630px) {
-    /* HEADER */
-  .navbar-brand {
-    padding-top: 10px;
-    height: 80px;
-}
-.navbar-brand h1 { /*Restaurant name */
-     padding-top: 10px;
-     font-size: 5vw; /* 1vw = 1% of viewport width */
-}
-.navbar-brand p { /* Kosher cert */
-      margin-top: 12px;
-}
-.navbar-brand p img { /* Star image */
-       height: 20px;
-}
-#collapsable-nav a {
-    font-size: 1.2em;
-}
-#collapsable-nav a span { /* Collapsable nav menu glyph */
-    font-size: 1em;
-    margin-right: 5px;
-}
-#call-btn {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    
-    
-}
-#xs-deliver {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-}
-/* END HEADER */
-/* MENU CATEGORY PAGE*/
-.category-tile {
-  position: relative;
-  border: 2px solid #000;
-  overflow: hidden;
-  width: 170px;
-  height: 170px;
-  margin: 0 auto 15px;
-}
-/* END MENU CATEGORY PAGE*/
-
-/* SINGLE MENU CATEGORY */
-.menu-item-photo {
-    margin-right: auto;
-}
-.menu-item-price {
-    text-align: center;
-}
-.menu-item-price-two {
-  text-align: center;
-}
-.menu-item-description {
-    text-align: center;
-}
-/* END SINGLE CATEGORY */
-   /* PAYMENT CATEGORY PAGE*/
-   .container-pay {
-      width: 250px;
-      height: 800px;
-      border: 1px solid;
-      margin-left: 10px;
-      margin-top: 80px;
-      background-color: #fff;
-      color: #000;
-      display: flex;
-      flex-direction: column;
-      padding: 40px;
-      justify-content: space-around;
-      font-family: cursive;
-  }
-  #mastercard {
-      height: 30px;
-      width: 30px;
- }
- #verve {
-      height: 30px;
-      width: 30px;
- }
- #visa {
-      height: 30px;
-      width: 30px;
- }
-  /* END PAYMENT CATEGORY PAGE*/
-  /* CONFIRMATION  PAGE*/
-  .box-yes {
-      width: 300px;
-      height: 650px;
-      border: 1px solid;
-      margin-left: 10px;
-      margin-top: 80px;
-      background-color: whitesmoke;
-      color: #000;
-      display: flex;
-      flex-direction: column;
-      padding: 40px;
-      justify-content: space-around;
-      font-family: cursive;
-  }
-  #check {
-      margin-top: 50px;
-      margin-left: 30px;
-      width: 200px;
-
-   }
-  /* END CONFIRMATION PAGE*/
-  /*S16 CATEGORY PAGE*/
-  .container-img {
-    width: 350px;    
-  }
-  #valid {
-      display: block;
-      background-color: black;
-      width: 200px;
-      float: right;
-      margin-right: 90px;
-    }
-    /*#cart {
-      display: block;
-      background-color: black;
-      width: 200px;
-      float: left;
-      margin-left: 40px;
-    }*/
-  /*END S16 CATEGORY PAGE*/
-  }
-
   
-   
   /********* Super extra small devices ********/
   @media (max-width: 479px) {
       /* HEADER */
@@ -1333,7 +1193,7 @@ li{
     
       
       .container-pay {
-        width: 400px;
+        width: 330px;
         height: 600px;
         border: 1px solid;
         margin-left: 5px;
@@ -1383,7 +1243,7 @@ li{
     /* END CONFIRMATION PAGE*/
     /*S16 CATEGORY PAGE*/
     .container-img {
-        width: 400px; 
+        width: 330px; 
         margin-left: 5px;   
     }
     #valid {
