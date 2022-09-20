@@ -1180,14 +1180,14 @@ li{
   /* END CONFIRMATION PAGE*/
   /*S16 CATEGORY PAGE*/
   .container-img {
-      margin-left: 10px;    
+    width: 350px;    
   }
   #valid {
       display: block;
       background-color: black;
       width: 200px;
       float: right;
-      margin-right: 40px;
+      margin-right: 90px;
     }
     /*#cart {
       display: block;
