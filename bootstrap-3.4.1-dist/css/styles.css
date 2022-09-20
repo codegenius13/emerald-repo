@@ -1263,14 +1263,77 @@ li{
   /********* Super extra small devices ********/
   @media (max-width: 479px) {
       /* HEADER */
-      .navbar-brand h1 {
-          padding-top: 5px;
-          font-size: 6vw;
+      .navbar-brand {
+            padding-top: 10px;
+            height: 80px;
+        }
+        .navbar-brand h1 { /*Restaurant name */
+             padding-top: 5px;
+             font-size: 6vw; /* 1vw = 1% of viewport width */
+        }
+        .navbar-brand p { /* Kosher cert */
+              margin-top: 12px;
+        }
+        .navbar-brand p img { /* Star image */
+               height: 20px;
+        }
+        #collapsable-nav a {
+            font-size: 1.2em;
+        }
+        #collapsable-nav a span { /* Collapsable nav menu glyph */
+            font-size: 1em;
+            margin-right: 5px;
+        }
+        #call-btn {
+            font-size: 1.5em;
+            display: block;
+            margin: 0 20px;
+            padding: 10px;
+            border: 2px solid #fff;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            
+            
+        }
+        #xs-deliver {
+            margin-top: 5px;
+            font-size: .7em;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+        }
+        /* END HEADER */
+        /* MENU CATEGORY PAGE*/
+        .category-tile {
+          position: relative;
+          border: 2px solid #000;
+          overflow: hidden;
+          width: 170px;
+          height: 170px;
+          margin: 0 auto 15px;
+        }
+        /* END MENU CATEGORY PAGE*/
+        
+        /* SINGLE MENU CATEGORY */
+        .menu-item-photo {
+            margin-right: auto;
+        }
+        .menu-item-price {
+            text-align: center;
+        }
+        .menu-item-price-two {
+          text-align: center;
+        }
+        .menu-item-description {
+            text-align: center;
+        }
+        /* END SINGLE CATEGORY */
          /* PAYMENT CATEGORY PAGE*/
     
-      }
+      
       .container-pay {
-        width: 400px;
+        width: 250px;
         height: 600px;
         border: 1px solid;
         margin-left: 5px;
@@ -1337,13 +1400,13 @@ li{
         margin-left: 0px;
       }*/
       #dis {
-        margin-left: 100px;
+        margin-left: 110px;
       }
       #coup {
-        margin-left: 100px;
+        margin-left: 110px;
       }
-    /*END S16 CATEGORY PAGE*/    
-  }
+    /*END S16 CATEGORY PAGE*/   
+  } 
   /* HOME PAGE */
   .container .jumbotron {
       margin-top: 30px;
