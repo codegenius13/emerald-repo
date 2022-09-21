@@ -19,13 +19,41 @@ $(function () { // Same as document .addEventListener("DONContentLoaded"...
    var homeHtml = "emerald.html";
     var allCategoriesUrl =
    "https://codegenius13.github.io/emerald-repo/"
-    var categoriesTitleHtml = "emerald-repo/emerald shop.html";
-    var categoryHtml = "emerald-repo/emerald shop.html";
+    var categoriesTitleHtml = "emerald shop.html";
+    var categoryHtml = "emerald shop.html";
     var categoryUrl = "https://codegenius13.github.io/emerald-repo/emerald shop.html"
     var menuItemsUrl =
     "https://codegenius13.github.io/emerald-repo/emerald single(1).html";
-     var menuItemsTitleHtml = "emerald-repo/emerald single(1).html";
-     var menuItemsHtml = "emerald-repo/emerald single(1).html"
+     var menuItemsTitleHtml = "emerald single(1).html";
+     var menuItemsHtml = "emerald single(1).html"
+     var menuItemsUrl =
+    "https://codegenius13.github.io/emerald-repo/emerald single(2).html";
+     var menuItemsTitleHtml = "emerald single(2).html";
+     var menuItemsHtml = "emerald single(2).html"
+     var menuItemsUrl =
+    "https://codegenius13.github.io/emerald-repo/emerald single(3).html";
+     var menuItemsTitleHtml = "emerald single(3).html";
+     var menuItemsHtml = "emerald single(3).html"
+     var menuItemsUrl =
+    "https://codegenius13.github.io/emerald-repo/emerald single(4).html";
+     var menuItemsTitleHtml = "emerald single(4).html";
+     var menuItemsHtml = "emerald single(4).html"
+     var menuItemsUrl =
+    "https://codegenius13.github.io/emerald-repo/emerald single(5).html";
+     var menuItemsTitleHtml = "emerald single(5).html";
+     var menuItemsHtml = "emerald single(5).html"
+     var menuItemsUrl =
+    "https://codegenius13.github.io/emerald-repo/emerald single(6).html";
+     var menuItemsTitleHtml = "emerald single(6).html";
+     var menuItemsHtml = "emerald single(6).html"
+     var menuItemsUrl =
+    "https://codegenius13.github.io/emerald-repo/emerald single(7).html";
+     var menuItemsTitleHtml = "emerald single(7).html";
+     var menuItemsHtml = "emerald single(7).html"
+     var menuItemsUrl =
+    "https://codegenius13.github.io/emerald-repo/emerald single(8).html";
+     var menuItemsTitleHtml = "emerald single(8).html";
+     var menuItemsHtml = "emerald single(8).html"
 
     // Convinience function for inserting innerHTML for 'select'
     var insertHtml = function (selector, html) {
