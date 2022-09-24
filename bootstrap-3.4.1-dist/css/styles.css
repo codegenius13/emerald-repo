@@ -11,7 +11,18 @@ body {
     background-color: white;
     border-radius: 0;
     border: 0;
-    
+    width: 100%;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    scroll-padding-top: 4rem;
+    z-index: 9999;
+    transition: all 300ms ease-in-out;
+}
+.sticky + ::content {
+    padding-top: 102px;
 }
 
 #logo-img {
