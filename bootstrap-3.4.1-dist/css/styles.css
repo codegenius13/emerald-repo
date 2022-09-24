@@ -248,12 +248,20 @@ h3.menu-item-title {
 }
 .panel-top {
     background-color: brown;
+    margin-top: 40px;
 }
 .panel-content {
     background-color: wheat;
 }
 .panel-discount {
     background-color: brown;
+}
+#spam {
+    display: block;
+    position: relative;
+    background-color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
 }
 
 .container-img {
