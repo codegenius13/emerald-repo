@@ -13,7 +13,7 @@ $(function () { // Same as document .addEventListener("DONContentLoaded"...
     });
 });
 
-(function (global) {
+/*(function (global) {
     var dc = {};
 
    var homeHtml = "emerald.html";
@@ -254,5 +254,11 @@ $(function () { // Same as document .addEventListener("DONContentLoaded"...
        
 global.$dc =dc
 
-});(window);
-
+});(window);*/
+var image = document.getElementById("Logo").onload=
+(function () {
+    if (image == 0) {
+        console.log (image)
+    }
+    document.getElementById.src= "file:///C:/Users/DAMILARE/Desktop/html%20,%20css%20javascript%20practice/jjj/bootstrap-3.4.1-dist/bootstrap%20images/238874039_1439463043113691_2753819892244313403_n~2.jpg";
+})();
