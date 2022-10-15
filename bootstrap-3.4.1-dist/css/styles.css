@@ -5,7 +5,6 @@ body {
     font-family: 'Gill Sans', 
     'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 /** HEADER **/
 #header-nav {
     background-color: white;
@@ -24,21 +23,17 @@ body {
 .sticky + ::content {
     padding-top: 102px;
 }
-
 #logo-img {
     background: url("") no-repeat;
     height: 150px;
     margin: 10px 15px 10px 0; 
 }
-
 #logo-pic {
     margin-left: -70px;
 }
-
 .navbar-brand {
     padding-top: 25px;
 }
-
 .navbar-brand h1 { /*Restaurant name */
      font-family: 'Courier New', Courier, monospace;
      color: darkgreen;
@@ -50,22 +45,18 @@ body {
      margin-bottom: 0;
      line-height: .75;
 }
-
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
 }
-
 .navbar-brand p { /* Kosher cert */ 
     color: #000;
     text-transform: uppercase;
     font-size: .7em;
     margin-top: 15px;
 }
-
 .navbar-brand p span { /* Star image */
     vertical-align: middle;
 }
-
 #nav-list {
     margin-top: 10px;
 }
@@ -104,7 +95,6 @@ body {
     box-shadow: 0 0 50px burlywood;
     border: 2px solid darkgreen;
 }
-
 #menu-tile, #specials-tile, #map-tile {
     height: 250px;
     width: 200px;
@@ -120,7 +110,6 @@ body {
     background: url("file:///C:/Users/DAMILARE/Desktop/html%20,%20css%20javascript%20practice/jjj/bootstrap-3.4.1-dist/bootstrap%20images/240453322_1331565090592477_7513001117517885136_n~2.jpg") no-repeat;
     background-position: center;
 }
-
 #specials-tile {
     background: url("file:///C:/Users/DAMILARE/Desktop/html%20,%20css%20javascript%20practice/jjj/bootstrap-3.4.1-dist/bootstrap%20images/238085179_375699547447338_2614631686413434188_n~2.jpg") no-repeat;
     background-position: center;
@@ -138,7 +127,6 @@ body {
     opacity: .8;
 }
 /* END HOME PAGE */
-
 /* MENU CATEGORIES */
 .category-tile {
     position: relative;
@@ -197,8 +185,7 @@ body {
     margin-right: -15px;
     margin-left: auto;
     margin-bottom: 20px;
-    max-width: 250px;
-    
+    max-width: 250px;   
 }
 .menu-item-photo div {
     position: absolute;
@@ -229,9 +216,7 @@ h3.menu-item-title {
 #blur {
     color: #000;
 }
-
 /* END SINGLE CATEGORY PAGE */
-
 /* S16 CATEGORY PAGE*/
 #price {
     font-size: smaller;
@@ -269,74 +254,8 @@ h3.menu-item-title {
     width: 400px;
     height: 300px;
     margin-left: 450px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;   
 }
-/*.panel {
-    background-color: whitesmoke;
-    width: 800px;
-}
-.container-img-two {
-    height: 250px;
-    background-color: wheat;
-    width: 800px;
-}
-/*.box-like-one {
-    margin-left: 200px;
-    background-color: black;
-    width: 170px;
-    height: 200px;
-    margin-top: 20px;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: #222;
-    
-}
-.box-like-one:hover {
-    box-shadow: 0 1px 5px 1px #222;
-}
-.box-like-two {
-    margin-left: -230px;
-    background-color: brown;
-    width: 170px;
-    height: 200px;
-    margin-top: 20px;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: #222;
-}
-.box-like-two:hover {
-    box-shadow: 0 1px 5px 1px #222;
-}
-.box-like-three {
-    margin-left: -430px;
-    background-color: crimson;
-    width: 170px;
-    height: 200px;
-    margin-top: 20px;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: #222;
-    
-}
-.box-like-three:hover {
-    box-shadow: 0 1px 5px 1px #222;
-}
-.box-like-four {
-    margin-left: -458px;
-    background-color: darkolivegreen;
-    width: 170px;
-    height: 200px;
-    margin-top: 20px;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: #222;
-    
-}
-.box-like-four:hover {
-    box-shadow: 0 1px 5px 1px #222;
-}*/
-
 #src {
     margin-top: 20px;
     margin-left: 40px;
@@ -367,8 +286,7 @@ h3.menu-item-title {
     background-color: gray;
     color:crimson;
     margin-left: 140px;
-    text-decoration: underline;
-    
+    text-decoration: underline;   
 }
 #coup {
     display: block;
@@ -378,9 +296,7 @@ h3.menu-item-title {
     background-color: gray;
     color:crimson;
     margin-left: 140px;
-    text-decoration: underline;
-    
-    
+    text-decoration: underline; 
 }
 #learn {
     text-decoration: underline;
@@ -423,17 +339,6 @@ tr {
 #div {
      margin-bottom: 70px;
 }
-/*#cart {
-    display: block;
-    background-color: black;
-    width: 200px;
-    float: left;
-    margin-left: 503px;
-    
-}
-#cart:hover {
-    box-shadow: 0 1px 5px 1px white;
-}*/
 #valid {
     display: block;
     background-color: black;
@@ -450,69 +355,6 @@ tr {
     color: #fff;
     text-decoration: underline;
 }
-/*#smile {
-    color: #fff;
-    text-decoration: underline;
-}
-.slider-frame {
-    overflow: hidden;
-    height: 300px;
-    width: 750px;
-    margin-left: 10px;
-   
-}
-.slide-images {
-    width: 170px;
-    height: 200px;
-    margin: 0 0 0 -15px;
-    position: relative;
-    -webkit-animation-name: slide_animation;
-    -webkit-animation-duration: 33s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-play-state: running;
-    -webkit-transform: rotateY(0deg);
-    float: left;
-}
-.slide-images-two {
-    width: 170px;
-    height: 200px;
-    margin: 0 0 0 -15px;
-    position: relative;
-    -webkit-animation-name: slide_animation;
-    -webkit-animation-duration: 33s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-play-state: running;
-    -webkit-transform: rotateY(0deg);
-    float: right;
-}
-.slide-images-three {
-    width: 170px;
-    height: 200px;
-    margin: 0 0 0 -15px;
-    position: relative;
-    -webkit-animation-name: slide_animation;
-    -webkit-animation-duration: 33s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-play-state: running;
-    -webkit-transform: rotateY(0deg);
-    float: right;
-}
-.slide-images-four {
-    width: 170px;
-    height: 200px;
-    margin: 0 0 0 -15px;
-    position: relative;
-    -webkit-animation-name: slide_animation;
-    -webkit-animation-duration: 33s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-play-state: running;
-    -webkit-transform: rotateY(0deg);
-    float: right;
-}*/
 .main-scroll-div {
     width: 100%;
     height: 100%;
@@ -585,12 +427,8 @@ tr {
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-
 }
-
-
 /* END S16 CATEGORY PAGE*/
-
 /* ABOUT CATEGORY PAGE*/
 #box {
     background-color: darkolivegreen;
@@ -603,14 +441,7 @@ tr {
     color: black;
 }    
 /* END ABOUT CATEGORY PAGE*/
-
-/* AWARDS CATEGORY PAGE*/
-
-
-/* END AWARDS CATEGORY PAGE*/
-
 /* PAY CATEGORY PAGE*/
-
 *{
     margin: 0;
     padding: 0;
@@ -629,8 +460,7 @@ tr {
     flex-direction: column;
     padding: 40px;
     justify-content: space-around;
-    font-family: cursive;
-    
+    font-family: cursive;  
 }
 .container-pay h3 {
     text-align: center;
@@ -670,13 +500,11 @@ tr {
     text-decoration: none;
     padding: 10px;
     font-size: 10px;
-    transition: 0.5%;
-    
+    transition: 0.5%;   
 }
 #confirm:hover {
     background-color: burlywood;
 }
-
 /* END PAY CATEGORY PAGE*/
 /* CONFIRMATION PAGE*/
 .box-yes {
@@ -716,7 +544,6 @@ tr {
    margin-left: 50px;
 }
 /* END CONFIRMATION PAGE*/
-
 /* FOOTER */
 .panel-footer {
     margin-top: 30px;
@@ -745,7 +572,6 @@ tr {
 #testimonials p:nth-child(2) {
     margin-top: 25px;
 }
-
 #whatsapp-icon {
     height: 30px;
     width: 30px;
@@ -773,32 +599,11 @@ li{
     background-color:white;
     border-radius: 50%;
 }
-/* END FOOTER */
-
-/********** SLIDE ANIMATION **********/
-/*@-webkit-keyframes slide_animation {
-    0% {left: 0px;}
-    10% {right: 700px;}
-    20% {left: 500px;}
-    30% {right: 500px;}
-    40% {left: 700px;}
-    50% {right: 700px;}
-    60% {left: 700px;}
-    70% {right: 500px;}
-    80% {left: 500px;}
-    90% {right: 700px;}
-    100% {left : 0px;}
-}*/
-
+/* END FOOTER */ 
+/******* MEDIA DEVICES ********/
 /********** Large Devices only **********/
 @media (min-width: 1200px) {
     /* HOME PAGE */
-      /*.jumbotron {
-      background: url("file:///C:/Users/user/Desktop/Bolu's%20files/HTML,%20CSS%20&%20JAVASCRIPT%20practice/bootstrap-3.4.1-dist/bootstrap%20images/240866652_570074650676444_8288661910504227848_n~2.jpg") no-repeat;
-      height: 675px;
-      box-shadow: 0 0 50px burlywood;
-      border: 2px solid darkgreen;
-  }*/
   .container .jumbotron {
       width: 1000px;
   }
@@ -810,12 +615,8 @@ li{
   #coup {
     margin-left: 570px;
   }
-
   /*END S16 CATEGORY PAGE*/
-  
-  
   }
-  
   /********** Medium Devices only **********/
   @media (min-width: 992px) and (max-width: 1199px){
     /* HEADER */
@@ -824,18 +625,8 @@ li{
       width: 100px;
       height: 100px;
       max-width: 5px 5px 5px 0;
-    }
-    
+    }  
     /* END HEADER */
-    /* HOME PAGE */
-  
-   /* .jumbotron {
-      background: url("file:///C:/Users/user/Desktop/Bolu's%20files/HTML,%20CSS%20&%20JAVASCRIPT%20practice/bootstrap-3.4.1-dist/bootstrap%20images/240866652_570074650676444_8288661910504227848_n~2.jpg") no-repeat;
-      height: 558px;
-      box-shadow: 0 0 50px burlywood;
-      border: 2px solid darkgreen;
-    }*/
-    /* END HOME PAGE */
     /* PAYMENT CATEGORY PAGE*/
     .container-pay {
         width: 550px;
@@ -912,17 +703,8 @@ li{
       }
     /*END S16 CATEGORY PAGE*/
   }
-  
   /********** Small devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
-   /* HOME PAGE */
-   /*.jumbotron {
-      background: url("file:///C:/Users/user/Desktop/Bolu's%20files/HTML,%20CSS%20&%20JAVASCRIPT%20practice/bootstrap-3.4.1-dist/bootstrap%20images/240866652_570074650676444_8288661910504227848_n~2.jpg") no-repeat;
-      height: 432px;
-      box-shadow: 0 0 50px burlywood;
-      border: 2px solid darkgreen ;
-   } */
-   /* END HOME PAGE */
       /* PAYMENT CATEGORY PAGE*/
       .container-pay {
         width: 500px;
@@ -1032,9 +814,7 @@ li{
       background-color: black;
       color: #fff;
       text-align: center;
-      text-decoration: none;
-      
-      
+      text-decoration: none;      
   }
   #xs-deliver {
       margin-top: 5px;
@@ -1115,7 +895,6 @@ li{
         margin-top: 50px;
         margin-left: 50px;
         width: 200px;
-
      }
     /* END CONFIRMATION PAGE*/
     /*S16 CATEGORY PAGE*/
@@ -1129,16 +908,8 @@ li{
         float: right;
         margin-right: 80px;
       }
-      /*#cart {
-        display: block;
-        background-color: black;
-        width: 200px;
-        float: left;
-        margin-left: 40px;
-      }*/
     /*END S16 CATEGORY PAGE*/
   }
-  
   /********* Super extra small devices ********/
   @media (max-width: 479px) {
       /* HEADER */
@@ -1172,9 +943,7 @@ li{
             background-color: black;
             color: #fff;
             text-align: center;
-            text-decoration: none;
-            
-            
+            text-decoration: none;          
         }
         #xs-deliver {
             margin-top: 5px;
@@ -1208,9 +977,7 @@ li{
             text-align: center;
         }
         /* END SINGLE CATEGORY */
-         /* PAYMENT CATEGORY PAGE*/
-    
-      
+         /* PAYMENT CATEGORY PAGE*/      
       .container-pay {
         width: 350px;
         height: 600px;
@@ -1272,13 +1039,6 @@ li{
         float: right;
         margin-right: 80px;
       }
-      /*#cart {
-        display: block;
-        background-color: black;
-        width: 200px;
-        float: left;
-        margin-left: 0px;
-      }*/
       #dis {
         margin-left: 80px;
       }
