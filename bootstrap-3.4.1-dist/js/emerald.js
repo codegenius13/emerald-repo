@@ -38,3 +38,25 @@ $(function () { // Same as document .addEventListener("DONContentLoaded"...
   document.documentElement.scrollTop = 0;
  }
  // END SCROLL SECTION
+// LOADING IMAGES AND WINDOW
+function emerald() {
+    'use strict'
+    alert('Page loaded!')
+    var logo = document.getElementById('logo-pic').addEventListener('load');
+var jumbotron = document.getElementById('jumbotron').addEventListener('load');
+var menu = document.getElementById('menu-tile').addEventListener('load');
+var specials = document.getElementById('specials-tile').addEventListener('load');
+var whatsapp = document.getElementById('whatsapp-icon').addEventListener('load');
+var instagram = document.getElementById('instagram-icon').addEventListener('load');
+var facebook = document.getElementById('facebook-icon').addEventListener('load');
+var twitter = document.getElementById('twitter-icon').addEventListener('load');
+var stationeryHolderOne = document.getElementById('stationery-one').addEventListener('load');
+var stationery = document.getElementById('stationery').addEventListener('load');
+var note = document.getElementById('note').addEventListener('load');
+var palmflet = document.getElementById('palmflet').addEventListener('load');
+var purses = document.getElementById('purses').addEventListener('load');
+var Bags = document.getElementById('Bags').addEventListener('load')
+var bags = document.getElementById('bags').addEventListener('load');
+var books = document.getElementById('books').addEventListener('load');
+}
+emerald();
