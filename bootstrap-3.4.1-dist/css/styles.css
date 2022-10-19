@@ -98,14 +98,6 @@ body {
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
     box-shadow: 0 1px 5px 1px black;
 }
-#menu-tile {
-    background: url("file:///C:/Users/DAMILARE/Desktop/html%20,%20css%20javascript%20practice/jjj/emerald/emerald-repo/emerald-Images/stationery%20holder%20(white).jpg") no-repeat;
-    background-position: center;
-}
-#specials-tile {
-    background: url("file:///C:/Users/DAMILARE/Desktop/html%20,%20css%20javascript%20practice/jjj/emerald/emerald-repo/emerald-Images/palmflet.jpg") no-repeat;
-    background-position: center;
-}
 #menu-tile span, #specials-tile span, #map-tile span {
     position: absolute;
     bottom: 0;
@@ -891,7 +883,7 @@ li{
     /* END CONFIRMATION PAGE*/
     /*S16 CATEGORY PAGE*/
     .container-img {
-        margin-left: 40px;    
+        margin-left: 40px;  
     }
     #valid {
         display: block;
@@ -951,7 +943,7 @@ li{
           overflow: hidden;
           width: 170px;
           height: 170px;
-          margin: 0 auto 15px;
+          margin: 0 -8px 15px;
         }
         /* END MENU CATEGORY PAGE*/
         
@@ -1021,8 +1013,11 @@ li{
     /* END CONFIRMATION PAGE*/
     /*S16 CATEGORY PAGE*/
     .container-img {
-        width: 350px; 
-        margin-left: 5px;   
+        width: 350px;
+        margin-left: 2px;   
+    }
+    .container-img img {
+        width: 350px;
     }
     #valid {
         display: block;
