@@ -41,11 +41,8 @@ $(function () { // Same as document .addEventListener("DONContentLoaded"...
 // LOADING IMAGES AND WINDOW
 function emerald() {
     'use strict'
-    alert('Page loaded!')
-    var logo = document.getElementById('logo-pic').addEventListener('load');
+var logo = document.getElementById('logo-pic').addEventListener('load');
 var jumbotron = document.getElementById('jumbotron').addEventListener('load');
-var menu = document.getElementById('menu-tile').addEventListener('load');
-var specials = document.getElementById('specials-tile').addEventListener('load');
 var whatsapp = document.getElementById('whatsapp-icon').addEventListener('load');
 var instagram = document.getElementById('instagram-icon').addEventListener('load');
 var facebook = document.getElementById('facebook-icon').addEventListener('load');
@@ -58,5 +55,13 @@ var purses = document.getElementById('purses').addEventListener('load');
 var Bags = document.getElementById('Bags').addEventListener('load')
 var bags = document.getElementById('bags').addEventListener('load');
 var books = document.getElementById('books').addEventListener('load');
+var menu = document.getElementById('menu-tile'); 
+menu.src = "file:///C:/Users/DAMILARE/Desktop/html%20,%20css%20javascript%20practice/jjj/emerald/emerald-repo/emerald-Images/stationery%20holder%20(white).jpg".addEventListener('load');
+var specials = document.getElementById('specials-tile').addEventListener('load');
+specials.src = "file:///C:/Users/DAMILARE/Desktop/html%20,%20css%20javascript%20practice/jjj/emerald/emerald-repo/emerald-Images/palmflet.jpg".addEventListener('load');
+var mastercard = document.getElementById('mastercard').addEventListener('load');
+var visa = document.getElementById('visa').addEventListener('load');
+var verve = document.getElementById('verve').addEventListener('load');
+var pos = document.getElementById('pos').addEventListener('load');
 }
 emerald();
