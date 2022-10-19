@@ -23,14 +23,6 @@ body {
 .sticky + ::content {
     padding-top: 102px;
 }
-#logo-img {
-    background: url("") no-repeat;
-    height: 150px;
-    margin: 10px 15px 10px 0; 
-}
-#logo-pic {
-    margin-left: -70px;
-}
 .navbar-brand {
     padding-top: 25px;
 }
