@@ -228,13 +228,15 @@ h3.menu-item-title {
 #spam {
     display: block;
     position: relative;
-    background-color: crimson;
+    opacity: .7;
+    background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #000;
 }
 
 .container-img {
     background-color: white;
+    position: relative;
     width: 400px;
     height: 300px;
     margin-left: 450px;
